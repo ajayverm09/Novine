@@ -8,7 +8,7 @@ import NewsletterSection from '../Components/HomeNewsletter'
 
 const Home = () => {
   return (
-    <div>
+    <div className='overflow-hidden'>
       <HeroSlider/>
       <PromoCards/>
       <SpecialOffer/>
